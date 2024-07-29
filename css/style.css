@@ -1,0 +1,211 @@
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("../fonts/Montserrat-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/Montserrat-Regular.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fonts/Montserrat-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+html {
+  font-size: 14px;
+  background-color: #1A1B20;
+}
+
+.header {
+  width: 102.8rem;
+  margin: auto;
+}
+.header .header__section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 9.3rem 0 9.3rem;
+}
+.header .section__menu {
+  display: flex;
+  justify-content: space-between;
+  width: 43rem;
+  font-family: "Montserrat-Medium";
+  list-style-type: none;
+  color: #fff;
+}
+.header a {
+  text-decoration: none;
+  color: #fff;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+.header a:hover {
+  background-size: 100% 2px;
+}
+.header .line__header {
+  width: 100%;
+  text-align: center;
+}
+
+main .main {
+  width: 102.8rem;
+  margin: auto;
+  display: flex;
+}
+main .main .ofer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+  margin: 8.6rem 9.3rem 0 9.3rem;
+}
+main .main h1 {
+  font-family: "Montserrat-Medium";
+  font-size: 3.9rem;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #fff;
+}
+main .main p {
+  font-family: "Montserrat-Regular";
+  line-height: normal;
+  color: #fff;
+}
+main .main .order {
+  font-family: "Montserrat-Medium";
+  font-size: 1.2rem;
+  line-height: normal;
+  height: 4.1rem;
+  width: 19.1rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+main .main .line__order {
+  display: flex;
+  flex-direction: column;
+}
+main .main .line {
+  width: 1px;
+  height: 15.625rem;
+  background: #979797;
+  align-self: center;
+}
+main .main .stages {
+  margin: 3rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+}
+main .main .photo__stages {
+  height: 38.36rem;
+  width: 56.97rem;
+}
+main .main .text__stages {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  height: 2.14rem;
+  width: 37.92rem;
+  margin: 0.6rem 0 0 0;
+  align-items: center;
+}
+main .main .line__stages {
+  width: 1px;
+  height: 2.14rem;
+  background: #979797;
+  font-family: "Montserrat-Regular";
+}
+main .advantages {
+  position: relative;
+}
+main .advantages .line__main {
+  width: 42.7rem;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  left: 35.2rem;
+}
+main .advantages .line__main2 {
+  width: 1px;
+  height: 20px;
+  background-color: #fff;
+  position: absolute;
+  left: 77.8rem;
+}
+main .advantages .advantages__material {
+  display: flex;
+  justify-content: center;
+}
+main .advantages .image__adventages {
+  margin: 3.64rem 0 0 0;
+}
+main .advantages .text__adventages {
+  color: #fff;
+  margin: 3rem;
+}
+main .advantages h2 {
+  font-family: "Montserrat-Medium";
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 1.5rem 0 1.5rem 0;
+}
+main .advantages h4 {
+  font-family: "Montserrat-Medium";
+  font-size: 1.2rem;
+  margin: 1rem 0 1.5rem 0;
+}
+main .advantages P {
+  font-family: "Montserrat-Regular";
+  font-size: 1rem;
+  color: #fff;
+}
+main .advantages .adventages {
+  color: #fff;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  display: inline-block;
+}
+main .advantages li {
+  font-family: "Montserrat-Regular";
+  font-size: 1rem;
+}
+main .advantages .advantages__kompany {
+  display: flex;
+  justify-content: center;
+  gap: 2.57rem;
+  margin: 5.57rem;
+}
+main .advantages .adventages__123 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.9375em 1.5625em;
+  width: 20rem;
+  border-radius: 5px;
+  border: 1px solid #979797;
+  gap: 1rem;
+}
+main .advantages h3 {
+  font-family: "Montserrat-Medium";
+  font-size: 1.6rem;
+  color: #fff;
+}
+main .advantages li {
+  list-style: circle;
+  margin: 0 0 0 2rem;
+}/*# sourceMappingURL=style.css.map */
