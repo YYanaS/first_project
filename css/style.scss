@@ -35,6 +35,11 @@ html{
     background-color: #1A1B20;
 }
 
+body{
+    margin: auto;
+    width: 1440px;
+}
+
 .header{
     width: 102.8rem;
     margin: auto;
@@ -156,9 +161,9 @@ main{
 
    .advantages{
         position: relative;
-
-
-    .line__main{
+   }
+    
+   .line__main{
         width: 42.7rem;
         height: 1px;
         background-color: #fff;
@@ -203,7 +208,8 @@ main{
     h4{
         font-family: 'Montserrat-Medium';
         font-size: 1.2rem;
-        margin: 1rem 0 1.5rem 0;  
+        margin: 1rem 0 1.5rem 0;
+        color: #fff;  
     }
 
     P{
@@ -254,8 +260,84 @@ main{
     li{
         list-style: circle;
         margin: 0 0 0 2rem;
+    }
+
+    .swiper-slide img{
+        border-radius: 10px;
+    }
+
+    .produce{
+        margin: 10em 0 0 0;
+    
+        .directions{
+            margin: 10em 0 0 0;
+            display: grid;
+            grid-template-rows: 26.2em 26.2em 26.2em;
+            grid-template-columns:  26.2em 26.2em 26.2em;
+            grid-gap: 2vw;
+            justify-content: center;
+        }
+
+        .slogan__direction{
+            grid-column: 2/4;
+            position: relative;
+        }
+
+        .slogan__direction img{
+            position: absolute;
+            width: 30rem;
+            top: -5em;
+            
+        }
+
+        .slogan__direction-text{
+            padding: 9.75rem 0 0 13.25rem;
+            color: #fff;
+        }
+
+        button{
+            color: #FFFFFF;
+            margin-top: 1.5em;
+            width:  27.5em;
+            height: 4.875em;
+            padding: 0.625em 0;
+            border-radius: 8px;
+            border: 1px solid #979797;
+            background: #22242A;
+            text-transform: uppercase;
+        }
 
     }
-   }
+
+    .decor{
+        margin: 10em 0 5em 0;
+
+        .decor__2{
+            display: flex;
+            justify-content: center;
+        }
+
+        .text__decor{
+            margin: 3em 0 0 0;
+        }
+        p{
+            margin: 3em 0 0 0;
+        }
+
+        button{
+            color: #FFFFFF;
+            margin-top: 1.5em;
+            width:  27.5em;
+            height: 4.875em;
+            padding: 0.625em 0;
+            border-radius: 8px;
+            border: 1px solid #979797;
+            background: #22242A;
+            text-transform: uppercase;
+        }
+
+    }
+
+    
 
 }   

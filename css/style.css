@@ -24,6 +24,11 @@ html {
   background-color: #1A1B20;
 }
 
+body {
+  margin: auto;
+  width: 1440px;
+}
+
 .header {
   width: 102.8rem;
   margin: auto;
@@ -130,66 +135,68 @@ main .main .line__stages {
 main .advantages {
   position: relative;
 }
-main .advantages .line__main {
+main .line__main {
   width: 42.7rem;
   height: 1px;
   background-color: #fff;
   position: absolute;
   left: 35.2rem;
 }
-main .advantages .line__main2 {
+main .line__main2 {
   width: 1px;
   height: 20px;
   background-color: #fff;
   position: absolute;
   left: 77.8rem;
 }
-main .advantages .advantages__material {
+main .advantages__material {
   display: flex;
   justify-content: center;
 }
-main .advantages .image__adventages {
+main .image__adventages {
   margin: 3.64rem 0 0 0;
 }
-main .advantages .text__adventages {
+main .text__adventages {
   color: #fff;
   margin: 3rem;
 }
-main .advantages h2 {
+main h2 {
   font-family: "Montserrat-Medium";
   font-size: 2rem;
   text-transform: uppercase;
   color: #fff;
   margin: 1.5rem 0 1.5rem 0;
+  padding: auto;
 }
-main .advantages h4 {
+main h4 {
   font-family: "Montserrat-Medium";
   font-size: 1.2rem;
   margin: 1rem 0 1.5rem 0;
+  color: #fff;
 }
-main .advantages P {
+main P {
   font-family: "Montserrat-Regular";
   font-size: 1rem;
   color: #fff;
 }
-main .advantages .adventages {
+main .adventages {
   color: #fff;
   display: inline-block;
   display: flex;
   justify-content: center;
   display: inline-block;
 }
-main .advantages li {
+main li {
   font-family: "Montserrat-Regular";
   font-size: 1rem;
 }
-main .advantages .advantages__kompany {
+main .advantages__kompany {
   display: flex;
   justify-content: center;
   gap: 2.57rem;
   margin: 5.57rem;
 }
-main .advantages .adventages__123 {
+main .adventages__123 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -200,12 +207,74 @@ main .advantages .adventages__123 {
   border: 1px solid #979797;
   gap: 1rem;
 }
-main .advantages h3 {
+main h3 {
   font-family: "Montserrat-Medium";
   font-size: 1.6rem;
   color: #fff;
 }
-main .advantages li {
+main li {
   list-style: circle;
   margin: 0 0 0 2rem;
+}
+main .swiper-slide img {
+  border-radius: 10px;
+}
+main .produce {
+  margin: 10em 0 0 0;
+}
+main .produce .directions {
+  margin: 10em 0 0 0;
+  display: grid;
+  grid-template-rows: 26.2em 26.2em 26.2em;
+  grid-template-columns: 26.2em 26.2em 26.2em;
+  grid-gap: 2vw;
+  justify-content: center;
+}
+main .produce .slogan__direction {
+  grid-column: 2/4;
+  position: relative;
+}
+main .produce .slogan__direction img {
+  position: absolute;
+  width: 30rem;
+  top: -5em;
+}
+main .produce .slogan__direction-text {
+  padding: 9.75rem 0 0 13.25rem;
+  color: #fff;
+}
+main .produce button {
+  color: #FFFFFF;
+  margin-top: 1.5em;
+  width: 27.5em;
+  height: 4.875em;
+  padding: 0.625em 0;
+  border-radius: 8px;
+  border: 1px solid #979797;
+  background: #22242A;
+  text-transform: uppercase;
+}
+main .decor {
+  margin: 10em 0 5em 0;
+}
+main .decor .decor__2 {
+  display: flex;
+  justify-content: center;
+}
+main .decor .text__decor {
+  margin: 3em 0 0 0;
+}
+main .decor p {
+  margin: 3em 0 0 0;
+}
+main .decor button {
+  color: #FFFFFF;
+  margin-top: 1.5em;
+  width: 27.5em;
+  height: 4.875em;
+  padding: 0.625em 0;
+  border-radius: 8px;
+  border: 1px solid #979797;
+  background: #22242A;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */
