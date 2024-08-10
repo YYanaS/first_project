@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
 <body>
     <header class="header">
-         <div class="header__section">
+        <div class="header__section">
             <div class="section__logo">
                 <img src="img/лого белый 1.png" alt="Логотип">
             </div>
@@ -29,12 +30,12 @@
                 </li> 
             </ul>
         </div>
-        <div class="line__heder">
-            <hr>
-        </div>
     </header>
     <main>
         <section class="main">
+            <div class="photo__stages">
+                <img src="img/Фото.png" alt="Кашпо">       
+            </div>
             <div class="ofer">
                 <h1>Современныей <br> малые формы</h1>
                 <p>Наш опыт и знания позволяют нам реализовать <br> самые сложные и оригинальные задачи по <br> Вашим размерам, эскизам и чертежам.</p>
@@ -45,9 +46,6 @@
                 </div>
             </div>
             <div class="stages">
-                <div class="photo__stages">
-                    <img src="img/Фото.png" alt="Кашпо">       
-                </div>
                 <div class="text__stages">
                     <p>Проектирование</p>
                     <div class="line__stages"></div>
@@ -131,7 +129,9 @@
             </div>
         </section>
         <section class="produce">
-            <h2>Наши партнеры</h2>
+            <div class="line__main3"></div>
+            <div class="line__main4"></div>
+            <h2>Наши направления</h2>
             <div class="directions">
                 <div class="direction">
                     <div class="direction__image">
@@ -200,9 +200,9 @@
             </div>
         </section>
         <section class="decor">
-            <div class="line__main0"></div>
-            <div class="line__main"></div>
-            <div class="line__main2"></div>
+            <div class="line__main5"></div>
+            <div class="line__main6"></div>
+            <div class="line__main7"></div>
             <div class="decor__2">
                 <div class="text__decor">
                     <h2>Декоративные элементы</h2>
@@ -220,58 +220,86 @@
         </section>
         <section class="works">
             <h2>Наши работы</h2>
-            <iframe width="771" height="413" src="https://www.youtube.com/embed/ziCM3lxEoOQ" title="Червнь, Сквер, Концепция." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-            Вставить тут слайдер
-
-
+            <iframe width="1290" height="562.5" src="https://www.youtube.com/embed/ziCM3lxEoOQ" title="Червнь, Сквер, Концепция." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="works-examples">
+                <div class="main__slider swiper">
+                    <div class="main-swiper-wrapper__slider swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/1.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/2.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/3.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/4.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/5.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/6.png" alt=""></div>
+                    </div>    
+                    <div class="swiper-button-prev arrow-left arrow" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-636fb429cb8ec8a5">
+                        <svg width="12" height="18" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path id="Line 1" d="M9.54419 1.5L2.45559 9L9.54419 16.5" stroke="white" stroke-width="2.99575" stroke-linecap="round"></path>
+                        </svg>
+                    </div>
+                    <div class="swiper-button-next arrow-right arrow">
+                        <svg width="12" height="18" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path id="Line 1" d="M9.54419 1.5L2.45559 9L9.54419 16.5" stroke="white" stroke-width="2.99575"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="thumbs__slider swiper">
+                    <div class="main-swiper-wrapper__slider swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/1.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/2.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/3.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/4.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/5.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/6.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
         <div class="footer-section">
-            <div class="logo__column">
-                <div class="img__footer">
-                     <img src="img/лого%20белый%201.png" alt="Логотип компании">
+            <div class="logo-column">
+                <div class="logo">
+                    <a href="https://elitvid.com">
+                        <img src="img/лого белый 1.png" alt="Логотип Элитвид" class="big-logo-img">
+                    </a>
                 </div>
-                <p>Воплотим ваши идеи в реальность!</p>
+                <div class="mobile-tagline-button">
+                    <div class="tagline">
+                        <p>Воплотим ваши идеи в реальность!</p>
+                    </div>
+                </div>
             </div>
-            <div class="information__column">
+            <div class="information-column">
                 <div class="contacts">
-                    <h4>Контакты</h4>
-                    <p>Пн-пт: 8.00-17.00</p>
-                    <p><a href="mailto:el_vid@mail.ru">el_vid@mail.ru</a></p>
-                    <a href="tel:375297034014">+375 (29) 703 40 14</a>
-                    <a href="tel:375297665012">+375 (29) 766 50 12</a>
-                    <a href="tel:375293507171">+375 (29) 350 71 71</a>
-                    <a href="tel:79917110881">+7 (991) 711 08 81</a>
+                    <div class="contacts-text">
+                        <h4>Контакты</h4>
+                        <ul class="contacts-text--list">
+                            <li>Пн-пт: 8.00-17.00</li>
+                            <li>el_vid@mail.ru</li>
+                            <li><a href="tel:375297034014" class="phone-number">+375 (29) 703 40 14</a></li>
+                            <li><a href="tel:375297665012" class="phone-number">+375 (29) 766 50 12</a></li>
+                            <li><a href="tel:375297665012" class="phone-number">+375 (29) 350 71 71</a></li>
+                            <li><a href="tel:375297665012" class="phone-number">+7 (991) 711 08 81</a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="catalog">
-                    <ul class="section__menu">
-                        <li>
-                            <a href="Наши направления.html">Кашпо</a>
-                        </li>
-                        <li>
-                            <a href="Наши направления.html">Скамьи</a>
-                        </li>
-                        <li>
-                            <a href="Наши направления.html">Ротонды и коллонады</a>
-                        </li>
-                        <li>
-                            <a href="Наши направления.html">Парклет, навесы</a>
-                        </li>
-                        <li>
-                            <a href="Наши направления.html">Болларды и ограждения</a>
-                        </li>
-                        <li>
-                            <a href="Наши направления.html">Столбы и накрывки</a>
-                        </li>
-                        <li>
-                            <a href="Наши направления.html">Фасадная лепнина и панели</a>
-                        </li>
-                    </ul>
+                    <div class="catalog-text">
+                        <h4>Каталог</h4>
+                        <nav class="footer-menu">
+                            <ul class="catalog-text--list menu">
+                                <li><a href="Наши направления.html">Кашпо</a></li>
+                                <li><a href="Наши направления.html">Скамьи</a></li>
+                                <li><a href="Наши направления.html">Ротонды и коллонады</a></li>
+                                <li><a href="Наши направления.html">Парклет, навесы</a></li>
+                                <li><a href="Наши направления.html">Болларды и ограждения</a></li>
+                                <li><a href="Наши направления.html">Столбы и накрывки</a></li>
+                                <li><a href="Наши направления.html">Фасадная лепнина и панели</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
-            </div>   
+            </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
