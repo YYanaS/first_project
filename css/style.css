@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Montserrat-Medium";
   src: url("../fonts/Montserrat-Medium.woff2") format("woff2");
@@ -58,6 +59,86 @@ body {
 }
 .header a:hover {
   background-size: 100% 2px;
+}
+.header .menu {
+  display: none;
+}
+.header .burger-checkbox {
+  position: absolute;
+  visibility: hidden;
+}
+.header .burger {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  display: block;
+  border: none;
+  background: transparent;
+  width: 40px;
+  height: 26px;
+}
+.header .burger::before,
+.header .burger::after {
+  content: "";
+  left: 0;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+.header .burger::before {
+  top: 0;
+  box-shadow: 0 11px 0 #ffffff;
+  transition: box-shadow 0.3s 0.15s, top 0.3s 0.15s, transform 0.3s;
+}
+.header .burger::after {
+  bottom: 0;
+  transition: bottom 0.3s 0.15s, transform 0.3s;
+}
+.header .burger-checkbox:checked + .burger::before {
+  top: 11px;
+  transform: rotate(45deg);
+  box-shadow: 0 6px 0 rgba(255, 255, 255, 0);
+  transition: box-shadow 0.15s, top 0.3s, transform 0.3s 0.15s;
+}
+.header .burger-checkbox:checked + .burger::after {
+  bottom: 11px;
+  transform: rotate(-45deg);
+  transition: bottom 0.3s, transform 0.3s 0.15s;
+}
+.header .menu-list {
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: grid;
+  gap: 12px;
+  padding: 42px 0;
+  margin: 0;
+  background: rgba(26, 27, 32, 0.3254901961);
+  backdrop-filter: blur(10px); /* эффект размытия */
+  -webkit-backdrop-filter: blur(10px); /* для поддержки Safari */
+  list-style-type: none;
+  transform: translateY(-100%);
+  width: 102rem;
+  z-index: 1;
+  opacity: 1;
+  transition: 0.8s;
+}
+.header .menu-item {
+  display: block;
+  padding: 0.5rem;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  text-decoration: none;
+}
+.header .menu-item:hover {
+  background: #1A1B20;
+}
+.header .burger-checkbox:checked ~ .menu-list {
+  transform: translateX(0);
 }
 
 main {
@@ -458,5 +539,18 @@ footer .request-phone--button:hover {
 @media (max-width: 1440px) {
   main {
     padding: 0 5rem;
+  }
+}
+@media (max-width: 425px) {
+  .header .section__menu {
+    display: none;
+  }
+  .header .menu {
+    display: block;
+  }
+}
+@media (max-width: 425px) {
+  main .main h1 {
+    font-size: 6rem;
   }
 }/*# sourceMappingURL=style.css.map */
